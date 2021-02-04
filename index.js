@@ -30,6 +30,7 @@ addEmojiArea.addEventListener('click', handleClick)
 
 function handleClick(e){
     if(e.target.id === 'add-button'){
+        // this.remove() or event.target.remove() or addEmojiButton.remove() are same thing
         //remove button
         // add the form
         handleClickEvent(e)
